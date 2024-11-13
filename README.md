@@ -49,7 +49,9 @@ use yew::prelude::*;
 #[function_component(HelloWorld)]
 fn hello_world() -> Html {
     html!(
-        <h1>{"Hello World"}</h1>
+        <h1 class="text-base/7 font-semibold text-zinc-950 sm:text-sm/6 dark:text-white">
+            {"Hello World"}
+        </h1>
     )
 }
 
