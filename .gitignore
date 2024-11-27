@@ -1,2 +1,9 @@
 /target
 /dist
+Cargo.lock
+package-lock.json
+package.json
+.idea
+.vscode
+node_modules
+.DS_Store

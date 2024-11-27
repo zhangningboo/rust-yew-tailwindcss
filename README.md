@@ -24,6 +24,22 @@ $ npx tailwindcss init
 $ npx tailwindcss -i ./styles/input.css -o ./styles/output.css
 ```
 
+### tailwindcss v4
+
+doc：https://tailwindcss.com/docs/v4-beta
+
+```shell
+$ npm install tailwindcss@next @tailwindcss/cli@next
+```
+`styles/input.css`
+```css
+@import "tailwindcss";
+```
+
+```shell
+$ npx @tailwindcss/cli -i styles/input.css -o styles/tailwindcss_v4.css
+```
+
 ### 以trunk语法引入css
 `index.html`
 ```html
