@@ -1,5 +1,4 @@
-/target
-/dist
+
 Cargo.lock
 package-lock.json
 package.json
@@ -7,3 +6,5 @@ package.json
 .vscode
 node_modules
 .DS_Store
+/**/target/**
+/**/dist/**
