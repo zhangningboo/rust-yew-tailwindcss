@@ -5,3 +5,4 @@ edition = "2021"
 
 [dependencies]
 yew = { git = "https://mirror.ghproxy.com/github.com/yewstack/yew/", features = ["csr"] }
+# wasm-bindgen = { git = "https://mirror.ghproxy.com/github.com/rustwasm/wasm-bindgen.git" }
