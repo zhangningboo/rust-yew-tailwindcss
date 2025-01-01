@@ -49,22 +49,6 @@ fn App() -> Html {
             </div>
         </>
     }
-    // html! {
-    //     <table class="border-separate border border-green-800">
-    //         <thead>
-    //             <tr>
-    //             <th class="border border-green-600">{ "State" }</th>
-    //             <th class="border border-green-600">{ "City" }</th>
-    //             </tr>
-    //         </thead>
-    //         <tbody>
-    //             <tr>
-    //             <td class="border border-green-600">{ "Indiana" }</td>
-    //             <td class="border border-green-600">{ "Indianapolis" }</td>
-    //             </tr>
-    //         </tbody>
-    //     </table>
-    // }
 }
 
 fn main() {
