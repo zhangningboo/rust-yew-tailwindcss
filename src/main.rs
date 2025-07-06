@@ -27,7 +27,12 @@ fn App() -> Html {
                 <h1 class="text-base/7 font-semibold text-zinc-950 sm:text-sm/6 dark:text-white">
                     {"Hello World"}
                 </h1>
-                <button { onclick } class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-9 px-4 py-2"> { "Click +1" } </button>
+                <button { onclick } class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-9 px-4 py-2">
+                    { "Click +1" }
+                </button>
+                <button class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-hidden focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none">
+                    { "Solid" }
+                </button>
                 <p> { *counter } </p>
                 <table class="border-separate border border-green-800">
                     <thead>
@@ -44,6 +49,7 @@ fn App() -> Html {
                     </tbody>
                 </table>
             </div>
+
             <div>
                 <footer> { "Copyright ZNB" } </footer>
             </div>
