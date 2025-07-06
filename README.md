@@ -2,16 +2,24 @@
 [Youtube](https://www.youtube.com/watch?v=DEWoizX96k8&ab_channel=TonyJohnson)
 
 ```shell
+$ rustup upgrade
+$ rustup target add wasm32-unknown-unknown
 $ cargo new yew-tailwind
 $ cd yew-tailwind
+$ cargo install trunk
+$ cargo install wasm-bindgen-cli
 $ trunk serve
 ```
 
 ### tailwind
+- tailwindcss v4.1.11 20250706
+```shell
+$ npm install tailwindcss @tailwindcss/cli
+$ npx tailwindcss -o styles/tailwindv4.1.11.css
+```
 - 初始化
 ```shell
 $ npm install -D tailwindcss
-$ npx tailwindcss init
 ```
 `styles/input.css`
 ```css

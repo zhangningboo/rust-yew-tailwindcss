@@ -1,12 +1,12 @@
 use yew::prelude::*;
 use wasm_bindgen::UnwrapThrowExt;
-use wasm_bindgen::prelude::*;
+// use wasm_bindgen::prelude::*;
 use web_sys::{window};
 
 pub mod components;
 
 #[function_component]
-fn App() -> Html {
+fn App() -> Html {  
     let counter = use_state(|| 0);
     let onclick = {
         let counter = counter.clone();
